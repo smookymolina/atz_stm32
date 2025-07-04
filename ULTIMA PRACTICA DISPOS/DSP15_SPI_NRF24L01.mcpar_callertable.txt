@@ -1,0 +1,8 @@
+main
+	__FillZeros
+	SPI1_Init_Advanced
+		GPIO_Alternate_Function_Enable
+			GPIO_Config_Pin_Alternate_Function
+				GPIO_Config
+					GPIO_Clk_Enable
+		SPIx_Init_Advanced
